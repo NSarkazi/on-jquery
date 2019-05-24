@@ -1,0 +1,25 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"cd app && npm start\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon --inspect server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "concurrently": "^4.1.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "fs": "0.0.1-security",
+    "jquery": "^3.4.1",
+    "modules": "^0.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}

@@ -1,0 +1,20 @@
+.addBtn {
+ 
+  color: blue;
+}
+
+.table {
+  width: 640px;
+}
+
+.edit {
+  color: orange;
+}
+
+.del {
+  color: red;
+}
+
+.save {
+  color: green;
+}
